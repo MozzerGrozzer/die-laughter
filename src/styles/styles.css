@@ -52,15 +52,14 @@ label{
 
 input{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 5%;
-    gap:10px;
-    padding:1px 50px;
+    padding:3px 5px;
 }
 
 fieldset{
-    border: 1px solid white;
+    border: 2px solid white;
     padding:5px 40px;
     margin-right:10%;
+    border-radius: 6px;
 }
 
 main {
@@ -83,6 +82,8 @@ img#imagem-header{
     left:45%; 
 
 }
+
+
 
 .imagem-pergunta{
     width: 70%;
@@ -121,6 +122,21 @@ p#textodeatenção{
     padding: 10px;
     margin: 1px;
     }
+
+    legend{
+        text-transform: capitalize;
+        text-decoration: underline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        padding:0px 5px;
+    }
+
+.input-text{
+    display:inline-flex;
+    gap: 5px;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
 
 .primary-bottom{
     display: flex; 
