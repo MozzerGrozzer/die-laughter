@@ -83,10 +83,8 @@ img#imagem-header{
 
 }
 
-
-
 .imagem-pergunta{
-    width: 70%;
+    width: 55%;
     margin: 5%;
     display: flex;
     position:absolute;
@@ -152,11 +150,33 @@ p#textodeatenção{
     color: white; 
     border-radius: 15px; 
     text-decoration: none;
-    text-transform: capitalize;        
+    text-transform:lowercase;        
+    }
+
+.primary-bottom:hover{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    padding: 10px 5px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px; 
+    width: 20%;
+    text-align: center;
+    background-color: #9126ac;
+    border: 2px solid white;
+    color: white; 
+    border-radius: 15px; 
+    text-decoration: none;
+    text-transform: uppercase;        
     }
 
 a{
     color:blue;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 body {
