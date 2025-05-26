@@ -4,3 +4,4 @@
 <h4> Changelogs: </h4>
 <p> (21/05/25) O site está longe de estar terminado ou funcional e ainda usa apenas um placeholder</p>
 <p> (22/05/25) Die Laughter foi adicionada e fim de mudanças na home no momento</p>
+<p> (26/05/25) Estilo das perguntas formalizado e claramente quebrado smh</p>

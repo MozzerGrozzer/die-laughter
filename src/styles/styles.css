@@ -2,15 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-body {
-    background-color:#261928;
-    background:linear-gradient(180deg,rgba(38,25,40,1)46%,
-    rgba(0,0,0,1)100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    text-decoration: none;
+    border: none;
 }
 
 div#header{
@@ -18,37 +11,56 @@ div#header{
     align-items:center;
 }
 
-div#perguntas{
+.perguntas{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content:left;
-    color: white;
+    position: relative;
+
     border-radius:20px;
+    color:white;
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
     border: 2px solid white;
     background-color: black;
-    padding: 20px;
-    margin: 40px;
-    width: 55%;
-    justify-content:start;
-    text-align:start; 
-    margin: 20px;
 
+    padding: 30px 60px;
+    margin: 10px 100px;
+    width: 90%;
+    height: 80%;
+    text-align:start; 
 }
 
 form{
+    display:flex;
+    flex-direction: column;
     background-color:black;
-    margin:5px;
-    font-size: 18px;
+    margin:5px 10px;
+    width: 60%;
 }
 
 label{
+    display:flex;
+    justify-content: flex-start;
     font-family:Verdana, 'Geneva', Tahoma, sans-serif;
     font-size: 13px;
     text-align:start;
-    margin: 1px;
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    gap:10px;
+    padding:1px 50px;
+}
+
+fieldset{
+    border: 1px solid white;
+    padding:5px 40px;
+    margin-right:10%;
 }
 
 main {
@@ -73,12 +85,11 @@ img#imagem-header{
 }
 
 .imagem-pergunta{
-    width: 600px;
-    height: 90%;
-    margin: 0;
+    width: 70%;
+    margin: 5%;
     display: flex;
     position:absolute;
-    left:55%;
+    left:45%;
 }
 
 
@@ -130,4 +141,12 @@ p#textodeatenção{
 
 a{
     color:blue;
+}
+
+body {
+    background-color:#261928;
+    background:linear-gradient(180deg,rgba(38,25,40,1)46%,
+    rgba(0,0,0,1)100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
